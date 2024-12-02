@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Kanit", sans-serif; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    display: flex;
+    margin: 2vw 5vw 2vw 5vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+}
+header ul li.log a  {
+    margin: 0 0 0 30vw;
+    color: #FBBC05;
+}
+header ul li.get a {
+    color: white;
+    background-color: #FBBC05;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    margin: 0 -5px 0 0;
+}
+.celbomba {
+    background: url(../atv-taxi/img/Hero\(1\).png) no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 3vw;
+    justify-content: space-between;
+}
+.celbomba div{
+    margin: 10vw 0 0 11vw ;
+}
+.celbomba h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.celbomba p{
+    color: #737373;
+    margin: 3.5vw 0 3vw 0;
+}
+.celbomba .icones{
+    display: flex;
+}
+.celbomba a{
+    color: white;
+    background-color: black;
+    font-size: 1.4rem;
+    padding: 16px 38px;
+    margin: 0 1.5vw 0 0;
+    border-radius: 10px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.celbomba span.fa-brands{
+    font-size: 2rem;
+    margin: 0 1vw 0 0;
+}
+.celbomba .tamanho{
+    padding: 13px 38px;
+}
+.celbomba .tamanho span.fa-brands{
+    font-size: 2.5rem;
+}
+.ready{
+    margin: 5vw ;
+}
+.ready h1{
+    text-align: center;
+    font-size: 2vw;
+}
+.ready p{
+    text-align: center;
+    color: #737373;
+    margin: 1.5vw 0 0 0;
+}
+#circulo{
+    background: #FBBC05;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+}
+.ready{
+    margin: 3vw 7vw 3vw 7vw;
+    
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+}
+.naruto{
+    display: flex;
+}
